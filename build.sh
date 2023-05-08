@@ -3,6 +3,7 @@ set -e
 
 # Set the default build type
 BUILD_TYPE=RelWithDebInfo
+rosdep install -i --from-path src --rosdistro humble -y
 colcon build \
         --merge-install \
         --symlink-install \
