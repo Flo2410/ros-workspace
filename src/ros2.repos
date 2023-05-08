@@ -6,5 +6,6 @@
 repositories:
   mobicontroller_demo_ros:
     type: git
-    url: https://github.com/Flo2410/MobiController-Demo-Ros.git
+    # url: https://github.com/Flo2410/MobiController-Demo-Ros.git
+    url: git@github.com:Flo2410/MobiController-Demo-Ros.git
     version: main
